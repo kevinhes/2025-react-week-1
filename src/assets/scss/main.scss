@@ -1,0 +1,18 @@
+@import './vendor/bootstrap';
+
+@import './components/card';
+
+@import './components/modal';
+
+
+.text-ignore {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.object-cover {
+  object-fit: cover;
+}
